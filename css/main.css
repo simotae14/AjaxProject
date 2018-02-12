@@ -38,6 +38,14 @@ body, * {
   color: #333;
 }
 
+.menu-item-info-image {
+  float: left;
+  height: 120px;
+  padding: 0.2em;
+  border: 1px solid #ddd;
+  margin: 0.2em;
+}
+
 .cf {
   clear: both;
 }

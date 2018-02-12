@@ -18,6 +18,12 @@ $(function(){
 									'<a href="#">' + data.title + '</a>' + 
 									'<div class="menu-item-info"></div>' + 
 							'</li>');
+		if(data.infoPanel && data.infoPanel.length){
+			infoPanelEl = $('div.menu-item-info', liEl);
+			data.infoPanel.forEach(function(entry){
+				infoPanelEl.append("<img class='menu-item-info-image' src='" + entry.image + "'>");
+			})
+		}
 		return liEl;
 	}
 
@@ -30,5 +36,7 @@ $(function(){
 		data.forEach(function(menuItem){
 			containerEl.append(buildMenuItem(menuItem));	
 		});
+		containerEl.append('<div class="cf"></div>');
+		handleMenu();
 	}, 'json');
 });

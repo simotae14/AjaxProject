@@ -22,5 +22,53 @@
             "product": "Basis",
             "score": 84
         }]
+	},
+	{
+		"title": "Home",
+		"infoPanel": [{
+			"title": "EE TV",
+			"image": "https://loremflickr.com/160/120?people=1",
+			"product": "EE",
+			"score": 74
+		},{
+            "title": "Nexus 6",
+			"image": "https://loremflickr.com/160/120?people=2",
+            "product": "Google",
+            "score": 86
+        },{
+            "title": "Band",
+			"image": "https://loremflickr.com/160/120?people=3",
+            "product": "Microsoft",
+            "score": 65
+        },{
+            "title": "Peak",
+			"image": "https://loremflickr.com/160/120?people=4",
+            "product": "Basis",
+            "score": 84
+        }]
+	},
+	{
+		"title": "About",
+		"infoPanel": [{
+			"title": "EE TV",
+			"image": "https://loremflickr.com/160/120?business=1",
+			"product": "EE",
+			"score": 74
+		},{
+            "title": "Nexus 6",
+			"image": "https://loremflickr.com/160/120?business=2",
+            "product": "Google",
+            "score": 86
+        },{
+            "title": "Band",
+			"image": "https://loremflickr.com/160/120?business=3",
+            "product": "Microsoft",
+            "score": 65
+        },{
+            "title": "Peak",
+			"image": "https://loremflickr.com/160/120?business=4",
+            "product": "Basis",
+            "score": 84
+        }]
 	}
 ]
